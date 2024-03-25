@@ -19,7 +19,7 @@ def occurrences_sort(tuple:Tuple[str, int]) -> int:
     return tuple[1]
 
 def main():
-    filepath = "books/frankenstein.txt"
+    filepath = input("Please provide the filepath to the text file you would like to analyze: ")
     with open(filepath) as f:
         text = f.read()
 
