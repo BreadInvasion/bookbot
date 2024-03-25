@@ -1,6 +1,9 @@
 # bookbot
 A CLI text file analysis application. Built alongside the Boot.dev course.
 
+## Requirements
+Python 3 (Tested on 3.12.2, functionality is expected on all Python 3+ but not guaranteed)
+
 ## Functionality
 Upon execution, requests a filepath to a text file. The program prints to STDOUT a report listing the total number of words in the file (considered only by separation via spaces or newlines, without consideration for hyphenated breaks across newlines or misidentification of a symbol as a "word"), and a list of the alphabet characters present in the file and the number of times they occur, sorted from most to least occurrences.
 
